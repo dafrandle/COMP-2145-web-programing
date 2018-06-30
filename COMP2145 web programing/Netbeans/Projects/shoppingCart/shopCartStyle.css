@@ -1,0 +1,58 @@
+/*
+shopCartStyle.css
+Dustin Frandle - dafrandle@yahoo.com
+Project: Shopping Cart
+Written - 3/25/2016
+*/
+
+body{
+    background-image: url("game.jpg");
+    color: white;
+}
+.table-striped>tbody>tr:nth-child(odd)>td {
+    background-color: rgb(51, 181, 229);
+    color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td {
+    background-color: rgb(0, 153, 204);
+    color: white;
+}
+th{
+    text-align: center;
+    background-color: rgb(0, 48, 96);
+    color: white;
+}
+h1, h3 {
+    font-family: 'Wendy One',"Verdana", sans-serif;
+}
+.col{
+    text-align: center;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+#add{
+    background-color: rgba(20, 137, 255, 0.8);
+    color: white;
+    margin-right: 5%;
+    padding: 5px;
+    border: 7px solid rgba(20, 137, 255, 0.8);
+    border-radius: 20px;
+    
+}
+#del{
+    background-color: rgba(20, 137, 255, 0.8);
+    color: white;
+    margin-left: 5%;
+    padding: 5px;
+    border: 7px solid rgba(20, 137, 255, 0.8);
+    border-radius: 20px;
+}
+#table{
+    padding: 50px;
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: rgba(20, 137, 255,0.8);
+    border: 7px solid rgba(20, 137, 255, 0.8);
+    border-radius: 20px;
+}
